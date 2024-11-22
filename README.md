@@ -2,9 +2,9 @@
 
 ![logotipo IES Valle del Jerte](./imagenes/excelencia.jpeg)
 
-__Aprendiendo "Docker" - Ejercicios Prácticos.
+Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
-.[Ejercicio 1 - Imagenes](#Docker---Ejercicio-1)
+[Ejercicio 1 - Imagenes](#Docker---Ejercicio-1)
 
 
 
