@@ -5,8 +5,9 @@
 Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
 
-[Ejercicio 4 - Redes](#Docker---Ejercicio-3)
-
+[Anterior](./ejercicios/Ejercicio3.md)
+[Ejercicio 4 - Multicontenedor](#Docker---Ejercicio-4)
+[Siguiente](./ejericios/Ejercicio5.md)
 
 
 --- 
@@ -14,11 +15,12 @@ Aprendiendo "Docker" - Ejercicios Prácticos.
 
 ### Docker - Ejercicio 4
 
-#### Despliegue de Nextcloud
-
 Vamos a desplegar la aplicación nextcloud con una base de datos (puedes elegir mariadb o PostgreSQL) utilizando la aplicación docker-compose. Puedes coger cómo modelo el fichero docker-compose.yml el que hemos estudiado para desplegar WordPress.
 
 Instala docker-compose en tu ordenador.
+
+
+#### Despliegue de Nextcloud
 
 
 Dentro de un directorio crea un fichero docker-compose.yml para realizar el despliegue de nextcloud con una base de datos.
