@@ -46,7 +46,7 @@ Pantallazo que desde el navegador muestre el fichero index.html.
 
 Pantallazo que desde el navegador muestre el fichero index.php.
 
-![Pantallazo ejercicio 2(../imagenes/Docker2-php2.png)
+![Pantallazo ejercicio 2](../imagenes/Docker2-php2.png)
 
 
 #### 3.- Tamaño de la imagen del servidor web
