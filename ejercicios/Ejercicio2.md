@@ -67,7 +67,7 @@ Pantallazo donde se pueda apreciar que accediendo a c2 se puede ver el contenido
 
 #### 5.- Modificación fichero index.html en ambos contenedores
 
-Otro dos pantallazos (o uno) donde se vea accediendo a los contenedores después de modificar el fichero index.html.
+Otro pantallazo (o uno) donde se vea accediendo a los contenedores después de modificar el fichero index.html.
 
 ![Pantallazo ejercicio 5](../imagenes/Docker2-web5.png)
 
