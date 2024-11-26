@@ -62,6 +62,7 @@ Pantallazo donde se pueda apreciar que accediendo a c1 se puede ver el contenido
 #### 4.- Accediendo a index.html de C2
 
 Pantallazo donde se pueda apreciar que accediendo a c2 se puede ver el contenido de index.html.
+
 ![Pantallazo ejercicio 4](../imagenes/Docker2-web4.png)
 
 #### 5.- Modificación fichero index.html en ambos contenedores
