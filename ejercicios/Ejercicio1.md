@@ -1,6 +1,6 @@
 # PPS-Unidad0-Actividad5-Docker-JcMartin
 
-![logotipo IES Valle del Jerte](./imagenes/excelencia.jpeg)
+![logotipo IES Valle del Jerte](../imagenes/excelencia.jpeg)
 
 Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
