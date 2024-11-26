@@ -1,9 +1,10 @@
 # PPS-Unidad0-Actividad5-Docker-JcMartin
 
-![logotipo IES Valle del Jerte](./imagenes/excelencia.jpeg)
+![logotipo IES Valle del Jerte](../imagenes/excelencia.jpeg)
 
 Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
+
 [Ejercicio 2 - Almacenamiento](#Docker---Ejercicio-2)
 
 
@@ -38,14 +39,14 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
 Pantallazo que desde el navegador muestre el fichero index.html.
 
-![Pantallazo ejercicio 2](./imagenes/Docker2-web1.png)
+![Pantallazo ejercicio 2](../imagenes/Docker2-web1.png)
 
 #### 2.- Mostrando el contenido de index.php
 
 
 Pantallazo que desde el navegador muestre el fichero index.php.
 
-![Pantallazo ejercicio 3](./imagenes/Docker2-php2.png)
+![Pantallazo ejercicio 3](../imagenes/Docker2-php2.png)
 
 
 #### 3.- Tamaño de la imagen del servidor web
@@ -53,18 +54,21 @@ Pantallazo que desde el navegador muestre el fichero index.php.
 
 Pantallazo donde se vea el tamaño del contenedor web después de crear los dos ficheros.
 
-![Pantallazo ejercico 4](./imagenes/Docker2-web3.png)
+![Pantallazo ejercico 4](../imagenes/Docker2-web3.png)
 
 #### 4.- Conexión al servidor MariaDB
 
 
 Pantallazo donde desde un cliente de base de datos (instalado en tu ordenador) se pueda observar que hemos podido conectarnos al servidor de base de datos con el usuario creado y que se ha creado la base de datos prueba (show databases). El acceso se debe realizar desde el ordenador que tenéis instalado docker, no hay que acceder desde dentro del contenedor, es decir, no usar docker exec.
 
-![Pantallazo ejercicio 5](./imagenes/Docker2-mariadb4.png)
+![Pantallazo ejercicio 5](../imagenes/Docker2-mariadb4.png)
 
 #### 5.- Borrado imagen MariaDB
 
 
 Pantallazo donde se comprueba que no se puede borrar la imagen mariadb mientras el contenedor bbdd está creado.
 
-! [Pantallazo ejercicio 6](./imagenes/Docker2-mariadb5.png)
+! [Pantallazo ejercicio 6](../imagenes/Docker2-mariadb5.png)
+
+
+[Inicio](#Docker---Ejercicio-2)
