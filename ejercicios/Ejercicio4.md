@@ -5,9 +5,9 @@
 Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
 
-[Anterior](./ejercicios/Ejercicio3.md)
+[Anterior](./Ejercicio3.md)
 [Ejercicio 4 - Multicontenedor](#Docker---Ejercicio-4)
-[Siguiente](./ejericios/Ejercicio5.md)
+[Siguiente](./Ejercicio5.md)
 
 
 --- 
