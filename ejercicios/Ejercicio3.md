@@ -5,9 +5,9 @@
 Aprendiendo "Docker" - Ejercicios Prácticos.
 ======
 
-[Anterior](./ejercicios/Ejercicio2.md)
+[Anterior](./Ejercicio2.md)
 [Ejercicio 3 - Redes](#Docker---Ejercicio-3)
-[Siguiente](./ejercicios/Ejercicio4.md)
+[Siguiente](./Ejercicio4.md)
 
 
 --- 
