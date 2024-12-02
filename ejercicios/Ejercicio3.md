@@ -44,21 +44,21 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
 Pantallazo con la instrucción para crear el contenedor de la base de datos.
 
-![Pantallazo ejercicio 1](../imagenes/Docker3-mariadb1.png)
+![Pantallazo ejercicio 1](../imagenes/nexcloud-bash.png)
 
 
 #### Ejercicio 2.- Creando la Aplicación
 
 Pantallazo con la instrucción para crear el contenedor de la aplicación.
 
-![Pantallazo ejercicio 2](../imagenes/Docker3-nexcloud2.png)
+![Pantallazo ejercicio 2](../imagenes/nexcloud0.png)
 
 
 #### Ejecrcio 3.- Acceso a la Interface web Nexcloud
 
 Pantallazo donde se ve el acceso a la aplicación desde un navegador web.
 
-![Pantallazo ejercicio 3](../imagenes/Docker3-nexcloud3.png)
+![Pantallazo ejercicio 3](../imagenes/nexcloud1.png)
 
 
 [Inicio](#Docker---Ejercicio-3)
