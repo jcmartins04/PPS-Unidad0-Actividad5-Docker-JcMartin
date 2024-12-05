@@ -126,6 +126,61 @@ asociados. Esto facilita la replicación de entornos consistentes en desarrollo,
 Docker Compose es especialmente útil en aplicaciones complejas, ya que automatiza y organiza la gestión de contenedores, permitiendo trabajar con entornos
 reproducibles y simplificando el despliegue de sistemas completos.
 
+Aquí tienes un resumen de los comandos más importantes de Docker Compose y su función:
+
+### Comandos básicos
+1. **`docker-compose up`**  
+   Inicia todos los servicios definidos en el archivo `docker-compose.yml`.  
+   - Opción `-d`: Ejecuta los servicios en segundo plano (modo *detached*).  
+
+2. **`docker-compose down`**  
+   Detiene y elimina los contenedores, redes y volúmenes creados por `docker-compose up`.  
+   - Opción `--volumes`: También elimina los volúmenes asociados.
+
+3. **`docker-compose build`**  
+   Construye o reconstruye las imágenes de los servicios según lo definido en el archivo.
+
+4. **`docker-compose ps`**  
+   Muestra el estado de los servicios en ejecución.
+
+5. **`docker-compose logs`**  
+   Muestra los registros de salida de los servicios.  
+   - Opción `-f`: Sigue mostrando los registros en tiempo real.
+
+### Comandos de gestión
+6. **`docker-compose start`**  
+   Inicia los servicios que ya están creados pero detenidos.
+
+7. **`docker-compose stop`**  
+   Detiene los servicios en ejecución sin eliminarlos.
+
+8. **`docker-compose restart`**  
+   Reinicia los servicios en ejecución.
+
+### Comandos avanzados
+9. **`docker-compose exec <servicio> <comando>`**  
+   Ejecuta un comando dentro de un contenedor específico.  
+   Ejemplo: `docker-compose exec web bash`.
+
+10. **`docker-compose run <servicio> <comando>`**  
+   Crea y ejecuta un contenedor temporal para un servicio, útil para tareas específicas.  
+   Ejemplo: `docker-compose run app python manage.py migrate`.
+
+11. **`docker-compose config`**  
+   Valida y muestra la configuración del archivo `docker-compose.yml`.
+
+12. **`docker-compose scale <servicio>=<cantidad>`**  
+   Escala un servicio a un número específico de instancias (puede requerir una configuración adecuada en redes y puertos).
+
+13. **`docker-compose pull`**  
+   Descarga las imágenes definidas en el archivo sin ejecutarlas.
+
+14. **`docker-compose version`**  
+   Muestra la versión instalada de Docker Compose.
+
+Estos comandos simplifican el desarrollo y la gestión de aplicaciones multicontenedor, haciendo que las tareas de despliegue,
+pruebas y mantenimiento sean más eficientes.
+
 
 [Ejercicio 4 - Multicontenedor](./ejercicios/Ejercicio4.md)
 
