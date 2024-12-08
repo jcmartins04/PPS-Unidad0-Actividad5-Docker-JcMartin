@@ -43,19 +43,19 @@ Deberás entregar los siguientes pantallazos comprimidos en un zip o en un docum
 
 Pantallazo donde se vea el fichero docker-compose.yaml.
 
-![Pantallazo ejercicio 1](../imagenes/Docker4-compose1.png)
+![Pantallazo ejercicio 1](../imagenes/Docker4-Compose-NC1.png)
 
 #### Ejercicio 4.2 Contenedores
 
 Pantallazo donde se vea los contenedores funcionando con la instrucción docker-compose.
 
-![Pantallazo ejercicio 2](../imagenes/Docker4-conte2.pnp)
+![Pantallazo ejercicio 2](../imagenes/Docker4-Compose-NC2.pnp)
 
 
 #### Ejercicio 4.3 Accediendo a Nextcloud
 Pantallazo donde se vea el acceso desde el navegador a la aplicación 
 
-![Pantallazo ejercicio 3](../imagenes/Docker4-nexcloud3.png)
+![Pantallazo ejercicio 3](../imagenes/Docker4-Compose-NC3.png)
 
 
 [Inicio](#Docker---Ejercicio-4)
