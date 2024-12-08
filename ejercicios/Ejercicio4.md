@@ -49,7 +49,7 @@ Pantallazo donde se vea el fichero docker-compose.yaml.
 
 Pantallazo donde se vea los contenedores funcionando con la instrucción docker-compose.
 
-![Pantallazo ejercicio 2](../imagenes/Docker4-Compose-NC2.pnp)
+![Pantallazo ejercicio 2](../imagenes/Docker4-Compose-NC2.png)
 
 
 #### Ejercicio 4.3 Accediendo a Nextcloud
