@@ -50,10 +50,10 @@ Pantallazo donde se vea el fichero docker-compose.yaml.
 
 Pantallazo donde se vea los contenedores funcionando con la instrucción docker-compose.
 
-![Pantallazo ejercicio 2](../imagenes/Docker5-compos2.pnp)
+![Pantallazo ejercicio 2](../imagenes/Docker5-compos2.png)
 
 
-#### Ejercicio 5.3 Accediendo a Nextcloud
+#### Ejercicio 5.3 Accediendo a la Tienda web Prestashop
 Pantallazo donde se vea el acceso desde el navegador a la aplicación 
 
 ![Pantallazo ejercicio 3](../imagenes/Docker5-presta3.png)
