@@ -13,24 +13,25 @@ Aprendiendo "Docker" - Ejercicios Prácticos.
 --- 
 
 
-### Docker - Ejercicio 4
+### Docker - Ejercicio 5
 
-Vamos a desplegar la aplicación nextcloud con una base de datos (puedes elegir mariadb o PostgreSQL) utilizando la aplicación docker-compose. Puedes coger cómo modelo el fichero docker-compose.yml el que hemos estudiado para desplegar WordPress.
+Vamos a desplegar la aplicación de tienda virutal "PrestaShop" con una base de datos utilizando la aplicación docker-compose.
+Puedes coger cómo modelo el fichero docker-compose.yml creado por bitnami.
 
 Instala docker-compose en tu ordenador.
 
 
-#### Despliegue de Nextcloud
+#### Despliegue de Prestashop - Bitnami
 
 
-Dentro de un directorio crea un fichero docker-compose.yml para realizar el despliegue de nextcloud con una base de datos.
+Dentro de un directorio crea un fichero docker-compose.yml para realizar el despliegue de prestashop con una base de datos.
 
 Recuerda las variables de entorno y la persistencia de información.
 Levanta el escenario con docker-compose.
 
 Muestra los contenedores con docker-compose.
 
-Accede a la aplicación y comprueba que funciona.
+Accede a la aplicación por el puerto 80 de tu navegador y comprueba que funciona.
 
 Comprueba el almacenamiento que has definido y que se ha creado una nueva red de tipo bridge.
 
@@ -39,23 +40,23 @@ Borra el escenario con docker-compose.
 
 Deberás entregar los siguientes pantallazos comprimidos en un zip o en un documento pdf:
 
-#### Ejercicio 4.1 Docker-Compose
+#### Ejercicio 5.1 Imágenes personalizadas
 
 Pantallazo donde se vea el fichero docker-compose.yaml.
 
-![Pantallazo ejercicio 1](../imagenes/Docker4-compose1.png)
+![Pantallazo ejercicio 1](../imagenes/Docker5-compose1.png)
 
-#### Ejercicio 4.2 Contenedores
+#### Ejercicio 5.2 Contenedores
 
 Pantallazo donde se vea los contenedores funcionando con la instrucción docker-compose.
 
-![Pantallazo ejercicio 2](../imagenes/Docker4-conte2.pnp)
+![Pantallazo ejercicio 2](../imagenes/Docker5-conte2.pnp)
 
 
-#### Ejercicio 4.3 Accediendo a Nextcloud
+#### Ejercicio 5.3 Accediendo a Nextcloud
 Pantallazo donde se vea el acceso desde el navegador a la aplicación 
 
-![Pantallazo ejercicio 3](../imagenes/Docker4-nexcloud3.png)
+![Pantallazo ejercicio 3](../imagenes/Docker5-presta3.png)
 
 
 [Inicio](#Docker---Ejercicio-5)
