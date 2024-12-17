@@ -12,9 +12,11 @@ Aprendiendo "Docker" - Ejercicios Prácticos.
 
 [Ejercicio 3 - Redes](./ejercicios/Ejercicio3.md)
 
-[Ejercicio 4 - Multicontenedor](./ejercicios/Ejercicio4.md)
+[Ejercicio 4 - Multicontenedor - 1](./ejercicios/Ejercicio4.md)
 
-[Ejercicio 5 - Creando Imágenes](./ejercicios/Ejercicio5.md)
+[Ejercicio 5 - Multicontenedor - 2](./ejercicios/Ejercicio5.md)
+
+[Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
 
 
 
@@ -182,14 +184,59 @@ Estos comandos simplifican el desarrollo y la gestión de aplicaciones multicont
 pruebas y mantenimiento sean más eficientes.
 
 
-[Ejercicio 4 - Multicontenedor](./ejercicios/Ejercicio4.md)
+[Ejercicio 4 - Multicontenedor - 1](./ejercicios/Ejercicio4.md)
 
+
+[Ejercicio 5 - Multicontenedor - 2](./ejercicios/Ejercicio5.md)
 
 #### 5.- Creando Imágenes
 
+Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub son:
 
-[Ejercicio 5 - Creando Imágenes](./ejercicios/Ejercicio5.md)
+=====
+1. **Crear una imagen de Docker:** 
+   Este comando crea una imagen a partir de un archivo `Dockerfile` en el directorio actual:
+   ```bash
+   docker build -t usuario/nombre-imagen:tag .
+   ```  
+   - `usuario`: Tu nombre de usuario en Docker Hub.  
+   - `nombre-imagen`: El nombre que le darás a la imagen.  
+   - `tag`: La etiqueta de la versión (por ejemplo, `latest` o `v1.0`).  
+   - El `.` indica que el contexto de construcción está en el directorio actual.
 
+-----
+2. **Subir la imagen a Docker Hub:**  
+   Primero inicia sesión en tu cuenta de Docker Hub:  
+   ```bash
+   docker login
+   ```  
+   Luego, sube la imagen:  
+   ```bash
+   docker push usuario/nombre-imagen:tag
+   ```  
+   Esto cargará la imagen etiquetada al repositorio asociado a tu cuenta en Docker Hub.
+
+----
+
+3. **Descargar una imagen desde Docker Hub:**  
+   Usa el siguiente comando para bajar una imagen pública o privada (si estás autenticado):  
+   ```bash
+   docker pull usuario/nombre-imagen:tag
+   ```  
+   Si no especificas el `:tag`, Docker usará por defecto la etiqueta `latest`.
+
+----
+
+4. **Eliminar una imagen localmente:**  
+   Si ya no necesitas una imagen en tu sistema, elimínala con:  
+   ```bash
+   docker rmi usuario/nombre-imagen:tag
+   ```  
+   - Si la imagen está en uso por algún contenedor, deberás detenerlo primero con `docker stop` y eliminarlo con `docker rm`.
+```
+----
+
+[Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
 
 
 [Inicio](#PPS-Unidad0-Actividad5-Docker-JcMartin)
