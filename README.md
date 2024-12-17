@@ -3,7 +3,7 @@
 ![logotipo IES Valle del Jerte](./imagenes/excelencia.jpeg)
 
 Aprendiendo "Docker" - Ejercicios Prácticos.
-======
+===
 
 
 [Ejercicio 1 - Imagenes](./ejercicios/Ejercicio1.md)
@@ -17,7 +17,6 @@ Aprendiendo "Docker" - Ejercicios Prácticos.
 [Ejercicio 5 - Multicontenedor - 2](./ejercicios/Ejercicio5.md)
 
 [Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
-
 
 
 --- 
@@ -73,31 +72,30 @@ Además, Docker permite gestionar y monitorear estos métodos de almacenamiento 
 
 
 #### 3.- Redes
-
 Docker proporciona un sistema de redes flexible que permite a los contenedores comunicarse entre sí, con el host y con redes externas.
 Las redes en Docker son gestionadas por su motor de redes, que facilita la creación, configuración y administración de diferentes tipos de redes
 según las necesidades de las aplicaciones. Los principales tipos de redes en Docker son:
 
-##### 1. **Bridge (puente)**  
+##### 3-1. **Bridge (puente)**  
 Es la red predeterminada para contenedores que no especifican una red personalizada. Los contenedores conectados a una red de tipo bridge pueden
 comunicarse entre sí usando sus nombres de contenedor como DNS. Es ideal para configuraciones simples donde los contenedores necesitan interactuar
 solo dentro del mismo host.
 
-##### 2. **Host**  
+##### 3-2. **Host**  
 En esta configuración, el contenedor comparte la pila de red del host, eliminando el aislamiento de la red. Esto significa que el contenedor usará
 directamente la IP y los puertos del host. Es útil cuando el rendimiento de la red es crítico o cuando se necesitan configuraciones específicas como
 el uso de puertos privilegiados.
 
-##### 3. **Overlay**  
+##### 3-3. **Overlay**  
 Esta red conecta múltiples hosts Docker a través de una red virtual superpuesta. Se utiliza principalmente en clústeres Docker Swarm para permitir que
 los servicios distribuidos se comuniquen de manera transparente. Es ideal para aplicaciones escalables y distribuidas en múltiples nodos.
 
-##### 4. **Macvlan**  
+##### 3-4. **Macvlan**  
 Permite asignar una dirección MAC única a cada contenedor, haciéndolos aparecer como dispositivos físicos en la red del host.
 Es útil para integrar contenedores directamente en redes existentes, especialmente en configuraciones heredadas o cuando se necesitan
 configuraciones avanzadas de red.
 
-##### 5. **None**  
+##### 3-5. **None**  
 Los contenedores en esta red no tienen acceso a la red externa ni a otras redes Docker. Es útil para ejecutar aplicaciones que no requieren
 conectividad o para aislar completamente ciertos contenedores.
 
@@ -193,7 +191,7 @@ pruebas y mantenimiento sean más eficientes.
 
 Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub son:
 
-=====
+===
 1. **Crear una imagen de Docker:** 
    Este comando crea una imagen a partir de un archivo `Dockerfile` en el directorio actual:
    ```bash
@@ -204,7 +202,7 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
    - `tag`: La etiqueta de la versión (por ejemplo, `latest` o `v1.0`).  
    - El `.` indica que el contexto de construcción está en el directorio actual.
 
------
+---
 2. **Subir la imagen a Docker Hub:**  
    Primero inicia sesión en tu cuenta de Docker Hub:  
    ```bash
@@ -216,7 +214,7 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
    ```  
    Esto cargará la imagen etiquetada al repositorio asociado a tu cuenta en Docker Hub.
 
-----
+---
 
 3. **Descargar una imagen desde Docker Hub:**  
    Usa el siguiente comando para bajar una imagen pública o privada (si estás autenticado):  
@@ -225,7 +223,7 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
    ```  
    Si no especificas el `:tag`, Docker usará por defecto la etiqueta `latest`.
 
-----
+---
 
 4. **Eliminar una imagen localmente:**  
    Si ya no necesitas una imagen en tu sistema, elimínala con:  
@@ -234,9 +232,8 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
    ```  
    - Si la imagen está en uso por algún contenedor, deberás detenerlo primero con `docker stop` y eliminarlo con `docker rm`.
 ```
-----
 
 [Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
 
 
-[Inicio](#PPS-Unidad0-Actividad5-Docker-JcMartin)
+[Inicio](PPS-Unidad0-Actividad5-Docker-JcMartin)
