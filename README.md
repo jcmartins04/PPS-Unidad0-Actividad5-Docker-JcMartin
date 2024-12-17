@@ -231,7 +231,7 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
    docker rmi usuario/nombre-imagen:tag
    ```  
    - Si la imagen está en uso por algún contenedor, deberás detenerlo primero con `docker stop` y eliminarlo con `docker rm`.
-```
+
 
 [Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
 
