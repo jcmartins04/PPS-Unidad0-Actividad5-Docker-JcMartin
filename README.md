@@ -236,4 +236,4 @@ Los comandos básicos para crear, subir, bajar y borrar imágenes en Docker Hub 
 [Ejercicio 6 - Creando Imágenes](./ejercicios/Ejercicio6.md)
 
 
-[Inicio](PPS-Unidad0-Actividad5-Docker-JcMartin)
+[Inicio](#_PPS-Unidad0-Actividad5-Docker-JcMartin)
